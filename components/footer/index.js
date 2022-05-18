@@ -30,7 +30,7 @@ export default function Footer() {
               alt=""
               className="w-4 h-4 rounded-full"
             />
-            <span>Connext Protocol</span>
+            <span>Kaddex Protocol</span>
           </a>
           {_package?.dependencies?.['@connext/nxtp-sdk'] && (
             <span className="font-mono text-gray-400 dark:text-gray-600 font-light">(SDK v{_package.dependencies['@connext/nxtp-sdk'].replace('^', '')})</span>

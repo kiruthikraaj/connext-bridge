@@ -56,8 +56,8 @@ const min_amount = Math.pow(10, -6)
 
 const protocols = [
   {
-    id: 'connext',
-    title: 'Connext',
+    id: 'kaddex',
+    title: 'Kaddex',
     image: {
       light: '/logos/externals/connext/logo.png',
       dark: '/logos/externals/connext/logo_white.png',
@@ -1125,7 +1125,7 @@ export default function CrosschainBridge() {
                 <div>
                   <h1 className="uppercase text-base sm:text-lg font-semibold">Cross-Chain Transfer</h1>
                   {asPath?.includes('from-') && asPath?.includes('to-') && headMeta?.title && (
-                    <h2 className="text-gray-400 dark:text-gray-600 text-xs sm:text-sm">{headMeta.title.replace(' with Connext', '')}</h2>
+                    <h2 className="text-gray-400 dark:text-gray-600 text-xs sm:text-sm">{headMeta.title.replace(' with Kaddex', '')}</h2>
                   )}
                 </div>
                 {toChain && (
@@ -1145,7 +1145,7 @@ export default function CrosschainBridge() {
                   </a>
                 )}
               </div>
-              <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md space-y-8 sm:space-y-6 p-8 sm:p-6">
+              <div className="bg-white dark:bg-gray-900 rounded-xl space-y-8 sm:space-y-6 shadow-md mt-auto p-8 sm:p-6">
                 <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-5 gap-6">
                   <div className="sm:col-span-2 flex flex-col items-center sm:items-start">
                     <div className="w-48 flex items-center justify-center space-x-1.5">
@@ -1434,7 +1434,7 @@ export default function CrosschainBridge() {
                                   </div>
                                   <div className="flex items-center space-x-2">
                                     <img
-                                      src={protocols.find(p => p.id === 'connext')?.image?.[theme]}
+                                      src={protocols.find(p => p.id === 'kaddex')?.image?.[theme]}
                                       alt=""
                                       className="h-4"
                                     />
@@ -1892,7 +1892,7 @@ export default function CrosschainBridge() {
                                               </div>
                                               <div className="flex flex-col items-center space-y-1">
                                                 <Img
-                                                  src={protocols.find(p => p.id === 'connext')?.image?.[theme]}
+                                                  src={protocols.find(p => p.id === 'kaddex')?.image?.[theme]}
                                                   alt=""
                                                   className="w-10 h-10 rounded-full"
                                                 />

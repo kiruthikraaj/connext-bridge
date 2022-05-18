@@ -1024,7 +1024,7 @@ export default function TransactionState({ defaultHidden = false, data, onClose,
                 <Bars color={theme === 'dark' ? 'white' : '#2563EB'} width="18" height="18" />
               </div>
               <div className="text-gray-400 dark:text-gray-500">
-                Your transfer will automatically end up at your destination address once it is picked up and propagated by <span className="text-black dark:text-white font-semibold">Connext</span>'s network. You can track its progress above or on {manualClaimLink}.
+                Your transfer will automatically end up at your destination address once it is picked up and propagated by <span className="text-black dark:text-white font-semibold">Kaddex</span>'s network. You can track its progress above or on {manualClaimLink}.
               </div>
               <div className="text-gray-400 dark:text-gray-500">
                 Once the transaction status is <span className="text-black dark:text-white font-semibold">Prepared</span>, you can claim your transaction here on <span className="text-black dark:text-white font-semibold">{process.env.NEXT_PUBLIC_APP_NAME}</span> or claim it manually on {manualClaimLink}.
